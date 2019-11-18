@@ -12,7 +12,7 @@
 ### Install Adafruit nRF52 BSP via the Arduino Board Manager
 
 1. Download and install the Arduino IDE (At least v1.6.12)
-2 .Start the Arduino IDE
+2. Start the Arduino IDE
 3. Go into Preferences
 4. Add https://www.adafruit.com/package_adafruit_index.json as an 'Additional Board Manager URL'
 5. Restart the Arduino IDE
