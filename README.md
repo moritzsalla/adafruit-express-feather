@@ -62,3 +62,7 @@ There are 3 basic LEDs on the board
 1. __D3__: general red LED. Can be used for any desired purpose. Used as a status indicator.
 2. __CONN__: blue LED. Indicates connection status for bluetooth
 3. __CHG__: indicates a charging battery if connected to a USB power supply
+
+#### RGB Neo Pixel 
+
+The feather has an integrated RGB light. It's color can be configured via code as PIN_NEOPIXEL.
