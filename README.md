@@ -29,3 +29,20 @@
 - LIPO Input (Bat):  Voltage supply from the optional rechargeable cell. Can be connected via JST PH connector.
 - VREG Enable (En): Can be set to GND to disable the 3.3V output. By default set to HIGH.
 - USB Power (USB): Supplies voltage from USB (4.5-5.2V)
+
+### Analog Inputs
+
+- 6 analog pins (A0—A5)
+- 2 ADC pins (AREF, VIVD)
+
+AREF (A7): optional external analog reference. <br>
+VIDV (A6): allows measurement of battery charge. Can be used as an output. 
+
+### PWM Output
+
+Any GPIO pin can be configured as PWM.
+
+### I2C Pins
+
+- Require external pullup resistors to function. Not present by default.
+- All Adafruit breakouts normally have pullups, hence this likely won't be an issue.
