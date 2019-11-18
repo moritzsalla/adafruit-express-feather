@@ -63,4 +63,16 @@ There are 3 basic LEDs on the board
 2. __CONN__: blue LED. Indicates connection status for bluetooth
 3. __CHG__: indicates a charging battery if connected to a USB power supply
 
-The feather has an integrated RGB light called the __RGB Neo Pixel__. It's color can be configured via code as PIN_NEOPIXEL.
+The feather has an integrated RGB light called the __RGB Neo Pixel__. It's color can be configured via code as PIN_NEOPIXEL. It is a good way to test if the board is setup correctly.
+
+```c++
+void setup() {
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+void loop() {
+  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(1000);                       // wait for a second
+  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
+  delay(1000);                       // wait for a second
+}
+```
