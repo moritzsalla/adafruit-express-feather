@@ -23,18 +23,18 @@
 
 ### Power Pins
 
-- 3V: used to supply 3.3V power to external sensors, breakouts or Feather Wings
-- LIPO Input (Bat):  Voltage supply from the optional rechargeable cell. Can be connected via JST PH connector.
-- VREG Enable (En): Can be set to GND to disable the 3.3V output. By default set to HIGH.
-- USB Power (USB): Supplies voltage from USB (4.5-5.2V)
+- __3V__: used to supply 3.3V power to external sensors, breakouts or Feather Wings
+- __LIPO Input__ (Bat):  Voltage supply from the optional rechargeable cell. Can be connected via JST PH connector.
+- __VREG Enable__ (En): Can be set to GND to disable the 3.3V output. By default set to HIGH.
+- __USB Power__ (USB): Supplies voltage from USB (4.5-5.2V)
 
 ### Analog Inputs
 
 - 6 analog pins (A0–A5)
 - 2 ADC pins (AREF, VIVD)
 
-AREF (A7): optional external analog reference. <br>
-VIDV (A6): allows measurement of battery charge. Can be used as an output. 
+__AREF__ (A7): optional external analog reference. <br>
+__VIDV__ (A6): allows measurement of battery charge. Can be used as an output. 
 
 ### PWM Output
 
