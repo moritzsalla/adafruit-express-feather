@@ -23,8 +23,6 @@
 
 ### Power Pins
 
-![Image](https://cdn-learn.adafruit.com/assets/assets/000/068/617/large1024/circuitpython_nRF52840_Power.png?1546459953)
-
 - 3V: used to supply 3.3V power to external sensors, breakouts or Feather Wings
 - LIPO Input (Bat):  Voltage supply from the optional rechargeable cell. Can be connected via JST PH connector.
 - VREG Enable (En): Can be set to GND to disable the 3.3V output. By default set to HIGH.
@@ -32,7 +30,7 @@
 
 ### Analog Inputs
 
-- 6 analog pins (A0—A5)
+- 6 analog pins (A0–A5)
 - 2 ADC pins (AREF, VIVD)
 
 AREF (A7): optional external analog reference. <br>
@@ -44,5 +42,23 @@ Any GPIO pin can be configured as PWM.
 
 ### I2C Pins
 
-- Require external pullup resistors to function. Not present by default.
-- All Adafruit breakouts normally have pullups, hence this likely won't be an issue.
+- Require external pullup resistors to function. Not present by default
+- All Adafruit breakouts normally have pullups, hence this likely won't be an issue
+
+### User Switches
+
+- A general purpose switch is accessible via D7
+- On board reset, press this button to force USB bootloader mode
+
+### SWD Connector
+
+- Long header at center board
+- For advanced debugging or to reprogram the board using a 1.27mm SWD cable
+
+### LEDs 
+
+There are 3 basic LEDs on the board
+
+1. __D3__: general red LED. Can be used for any desired purpose. Used as a status indicator.
+2. __CONN__: blue LED. Indicates connection status for bluetooth
+3. __CHG__: indicates a charging battery if connected to a USB power supply
