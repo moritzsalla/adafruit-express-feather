@@ -1,18 +1,18 @@
 # Adafruit Feather nRF52840
-Msc Creative Computing
 
-Physical Computing Week 8 w/ Phoenix Perry
-
+Physical Computing Week 8 w/ Phoenix Perry<br>
+Msc Creative Computing<br>
+UAL: Creative Computing Institute<br>
 November 18, 2019
 
-By Msc class of 2020:
-Stuart Leitch, 
-Moritz Salla, 
-Yilin Zheng, 
-Anna Tsuda, 
-Harry Hallows, 
-Mark Kvetny, 
-Xiangsong Yang, 
+Authors:<br>
+Stuart Leitch<br>
+Moritz Salla<br> 
+Yilin Zheng<br> 
+Anna Tsuda<br> 
+Harry Hallows<br> 
+Mark Kvetny<br> 
+Xiangsong Yang<br> 
 Vino Chan
 
 ## Use cases - what it's good for.
