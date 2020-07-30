@@ -1,11 +1,6 @@
 # Adafruit Feather nRF52840
 
-__Physical Computing Week 8 w/ Phoenix Perry<br>
-Msc Creative Computing<br>
-UAL: Creative Computing Institute<br>
-November 18, 2019__
-
-__Authors:__ Stuart Leitch, Moritz Salla, Yilin Zheng, Anna Tsuda, Harry Hallows, Mark Kvetny, Xiangsong Yang, Vino Chan
+Stuart Leitch, Moritz Salla, Yilin Zheng, Anna Tsuda, Harry Hallows, Mark Kvetny, Xiangsong Yang, Vino Chan
 
 ## Use cases - what it's good for.
 
