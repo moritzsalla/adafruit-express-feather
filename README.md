@@ -2,7 +2,7 @@
 
 Stuart Leitch, Moritz Salla, Yilin Zheng, Anna Tsuda, Harry Hallows, Mark Kvetny, Xiangsong Yang, Vino Chan
 
-## Use cases - what it's good for.
+## Use cases
 
 ![Image](board.jpg)
 
